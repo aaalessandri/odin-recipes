@@ -1,0 +1,64 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+
+body {
+    height: 100vh;
+    padding: 40px 20px;
+    background-color: rgb(224, 244, 255);
+}
+
+.headline {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.card-box {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 30px;
+    height: 780px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 3px;
+}
+
+a {
+    display: block;
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;
+    min-width: 25%;
+}
