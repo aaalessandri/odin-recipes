@@ -45,6 +45,13 @@ body {
     gap: 40px;
 }
 
+a {
+    display: block;
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;
+    width: 25%;
+}
+
 .card {
     border: 1px solid black;
     padding: 30px;
@@ -54,11 +61,4 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     border-radius: 3px;
-}
-
-a {
-    display: block;
-    font-family: Verdana, sans-serif;
-    font-size: 1.2em;
-    min-width: 25%;
 }
